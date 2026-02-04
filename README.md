@@ -20,6 +20,7 @@ The project uses **data analytics techniques** spanning **descriptive, predictiv
 
 ## 📂 Repository Structure
 ```text
+
 Pasture-Biomass-Analytics/
 │
 ├─ FinalAnalytics.docx             # Research document & summary of findings
