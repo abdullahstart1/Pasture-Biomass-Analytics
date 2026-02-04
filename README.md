@@ -19,33 +19,36 @@ The project uses **data analytics techniques** spanning **descriptive, predictiv
 ---
 
 ## 📂 Repository Structure
+
+Pasture-Biomass-Analytics/
 │
-├─ FinalAnalytics.docx # Research document & summary of findings
-├─ FinalAnalytics.ipynb # Main Jupyter notebook with all analyses
-├─ Complete_Dataset_updated.csv # Dataset used for analysis
-└─ EvoloPy-master/ # Metaheuristic framework
-  ├─ optimizers/ # Metaheuristic algorithms
-  │ ├─ GA.py # Genetic Algorithm
-  │ ├─ DE.py # Differential Evolution
-  │ ├─ MVO.py # Multi-Verse Optimizer
-  │ ├─ BAT.py # Bat Algorithm
-  │ ├─ CS.py # Cuckoo Search
-  │ └─ ... # Other algorithms
-  ├─ benchmarks.py # Objective functions (e.g., MSE_ESI)
-  ├─ plot_boxplot.py # Boxplot visualizations
-  ├─ plot_convergence.py # Convergence visualizations
-  ├─ solution.py # Example solution runner
-  ├─ example.py # Demonstration scripts
-  ├─ init.py
-  ├─ LICENSE.txt
-  ├─ requirements.txt
-  ├─ optimizer.py # Runs metaheuristic algorithms
-  ├─ README.md # The README file for the Evolopy framework
-  └─ 2025-01-24-04-32-09/ # Each run generates a folder such as this
-    ├─ boxplot-MSE_SI.png
-    ├─ convergence-MSE_ESI.png
-    ├─ experiment.csv
-    └─ experiment_details.csv
+├─ FinalAnalytics.docx             # Research document & summary of findings
+├─ FinalAnalytics.ipynb           # Main Jupyter notebook with all analyses
+├─ Complete_Dataset_updated.csv   # Dataset used for analysis
+├─ EvoloPy-master/                # Metaheuristic framework
+│   ├─ optimizers/                # Metaheuristic algorithms
+│   │   ├─ GA.py                  # Genetic Algorithm
+│   │   ├─ DE.py                  # Differential Evolution
+│   │   ├─ MVO.py                 # Multi-Verse Optimizer
+│   │   ├─ BAT.py                 # Bat Algorithm
+│   │   ├─ CS.py                  # Cuckoo Search
+│   │   └─ ...                    # Other algorithms
+│   ├─ benchmarks.py              # Objective functions (e.g., MSE_ESI)
+│   ├─ plot_boxplot.py            # Boxplot visualizations
+│   ├─ plot_convergence.py        # Convergence visualizations
+│   ├─ solution.py                # Example solution runner
+│   ├─ example.py                 # Demonstration scripts
+│   ├─ __init__.py
+│   ├─ LICENSE.txt
+│   ├─ requirements.txt
+│   ├─ optimizer.py               # Runs metaheuristic algorithms
+│   ├─ README.md                  # EvoloPy framework README
+│   └─ 2025-01-24-04-32-09/      # Each run generates a folder like this
+│       ├─ boxplot-MSE_SI.png
+│       ├─ convergence-MSE_ESI.png
+│       ├─ experiment.csv
+│       └─ experiment_details.csv
+└─ .gitignore                     # Ignore temporary files & __pycache__
 
 
 ---
