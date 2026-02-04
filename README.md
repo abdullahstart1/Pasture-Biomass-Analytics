@@ -19,7 +19,7 @@ The project uses **data analytics techniques** spanning **descriptive, predictiv
 ---
 
 ## 📂 Repository Structure
-
+'''
 Pasture-Biomass-Analytics/
 │
 ├─ FinalAnalytics.docx             # Research document & summary of findings
@@ -49,7 +49,7 @@ Pasture-Biomass-Analytics/
 │       ├─ experiment.csv
 │       └─ experiment_details.csv
 └─ .gitignore                     # Ignore temporary files & __pycache__
-
+'''
 
 ---
 
